@@ -362,7 +362,7 @@ class Options extends AbstractOptions
 
                         $this->toolbar[$key][$collector] = $template;
                     }
-
+                    ksort($this->toolbar[$key]);
                     break;
                 default:
                     // Unknown type; ignore
